@@ -1,0 +1,45 @@
+/* Placera er stilmall här */
+body {
+    margin : 0px;
+    background-color: gray;
+}
+h1{
+    color: yellow;
+    background-color: black;
+    text-align: center;
+    display: inline-block;
+}
+h3{
+    color: yellow;
+}
+.header{
+    background-color: black;
+    text-align: center;
+}
+.Search{
+    text-align: center;
+}
+.MovieTitle{
+    text-align: center;
+}
+.Trailer{
+    text-align: center;
+}
+button{
+    background-color: yellow;
+    padding: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 12px;
+}
+
+button:hover{
+    background-color: green;
+}
+input {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 5px;
+}
