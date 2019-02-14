@@ -24,7 +24,7 @@ const Application = React.createClass({
 		alert("No trailer");
 	} else {
 var youtubeApi = new XMLHttpRequest();
-var youtubeURL = "https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&q=" + Title + "trailer&key=AIzaSyCAsg20Dn5gRyZelgwfekpxZaJREBYTBrQ";
+var youtubeURL = "https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&q=" + Title + "trailer&key=";
 
 youtubeApi.addEventListener("load", function() {
     var result = JSON.parse(this.responseText);
